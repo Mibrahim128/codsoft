@@ -1,0 +1,66 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cta-button:hover 
+{
+  background-color: royalblue;
+}
+
+.Featured-Mobile {
+    padding: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+.mobile {
+    margin: 20px;
+}
+
+.mobile img {
+    max-width: 100%;
+    border: 3px solid brown;
+}
+
